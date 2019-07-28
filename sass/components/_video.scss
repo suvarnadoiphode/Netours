@@ -1,0 +1,14 @@
+.video-bg{
+    // width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0.15;
+    z-index:-1;
+    .video-containt{
+
+     video{
+        width:100%;
+    }
+}
+}

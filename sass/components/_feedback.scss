@@ -1,0 +1,36 @@
+.feedback{
+   background-color:rgba($colorwhite,0.4);
+   padding:5rem;
+    transform:skewX(-10deg);
+   
+  
+    .feedbak-containent{
+        transform:skewX(10deg);
+        overflow:hidden;
+        
+        .profile-img
+        {
+            width:13rem;
+            height:13rem;
+            border-radius:13rem;
+            background-image:url(../images/nat-8.jpg);
+            background-position:center;
+            background-size: cover;
+            opacity:1;
+        //   display:inline-block;
+            float:left;
+            transition:all 0.4s;
+           
+        }
+       
+    }
+    &:hover .profile-img {
+        filter: brightness(30%);
+       
+    }
+    .reviews-content{
+        float: left;
+        width:60%;
+        margin-left:2rem;
+    }
+}

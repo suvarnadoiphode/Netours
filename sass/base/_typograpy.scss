@@ -1,0 +1,103 @@
+.heading-primary {
+    color: white;
+    text-align: center;
+    &_main{
+      display: block;
+      font-size: 6rem;
+      font-weight: 400;
+      letter-spacing: 3.5rem;
+      animation-name: moveInLeft;
+      animation-duration: 2s;
+      text-transform: uppercase;
+    }
+    &_sub {
+      display: block;
+      font-size: 2rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1.7rem;
+      margin-bottom: 5rem;
+      animation-name: moveInRight;
+      animation-timing-function: ease-out;
+      animation-duration: 2s;
+     }
+     }
+     .heading-secondary{
+         font-size: 3.5rem;
+           letter-spacing: 2px;
+         background-image:linear-gradient(to Right,$light-green,$dark-green);
+         display:inline-block;
+         -webkit-background-clip:text;
+         color:transparent;   
+         transition:all 0.5s;
+         text-transform: uppercase
+         text-shadow : 0 10px 10px rgba($color-black,0.2);
+         &:hover{
+             transform:skewX(5deg) skewY(10deg);
+         }
+     }
+     
+     .heading-third{
+        font-size:1.6rem;
+        font-weight:700;
+        text-transform: uppercase;
+       }
+       .para{
+         font-size:1.4rem;
+         padding-top:2.5rem;
+         padding-bottom:3.5rem;
+       }
+       .nature-img{
+        position:relative;
+  [class^="nat-"]{
+      width:50%;
+      position:absolute;
+      box-shadow:0 0 0.5rem 0.2rem $color-black;
+      border-radius:0.5rem;
+      &:hover{
+        box-shadow: 0.1rem 0.1rem 4rem 1rem rgba($color-black,0.3);
+        width:55%;
+        z-index: 100;
+        outline:0.5rem solid $dark-green;
+        outline-offset:1rem;
+      
+  }
+  
+  }
+  .nat-2{
+      top:5rem;
+      left:22rem; 
+  }
+  .nat-3{
+    top:12rem;
+    left:7rem;
+   
+}      
+  }
+ .info-icon{
+   display:inline-block;
+   font-size:6rem;
+   color:$dark-green;
+ }
+ 
+ .heading-forth{
+   color:$colorwhite;
+   font-size:3rem;
+   font-weight:100;
+   text-transform: uppercase;
+    
+    }
+  .heading-front{
+    width:75%;
+    text-align:right;
+    line-height:3.6rem;
+    position:absolute;
+    top:12rem;
+      right:7%;
+    }
+      .heading-bg{
+        padding:0 1rem;
+                }
+              
+        
+              

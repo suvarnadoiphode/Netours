@@ -1,0 +1,27 @@
+.input-primary{
+    border:none;
+    background-color:rgba($light-green,0.3);
+    padding:1rem;
+    display:block;
+    border-radius:0.4rem;
+    width:70%;
+    font-size:1.6rem;
+    font-weight:100;
+    color:rgba($color-black,0.8);
+        &:focus{
+        outline:none;
+            border-bottom:2px solid $dark-green;
+
+    }
+    &:not(:first-child){
+        margin-top:4rem;
+    }
+    &::placeholder{
+        color:$lightgray;
+        font-weight:100;
+    }
+}
+.label-primary{
+    font-size:1.4rem;
+    color:rgba($color-black,0.7);
+}
